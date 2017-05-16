@@ -1,0 +1,154 @@
+@chaset "UTF-8";
+
+body {
+    margin: 0;
+    font-family: calibri;
+    font-size: 20px;
+    background-color: #e6e6e6;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+
+header {
+    width: 100%;
+    background-color: #0073d4;
+}
+
+#bt-menu {
+    display: none;
+}
+
+header label {
+    display: none;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+header label:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+    border-right: 1px solid #fff;
+}
+
+.menu li:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+main {
+    padding: 0px 80px;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 50px;
+    background-color: white;
+    padding: 20px;
+    cursor: pointer;
+}
+
+main h1:hover {
+    color: #0073d4;
+    background-color: silver;
+    transition: all 0.5s;
+}
+
+main p {
+    padding: 0px 90px;
+}
+
+
+/* -----footer-------- */
+footer {
+    width: 100%;
+    height: auto;
+    clear: both;
+    background-color: #0073d4;
+    text-align: center;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+footer h2 {
+    width: 80px;
+    height: 40px;
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+footer h2 a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+footer h2:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/* -----footer-------- */
+
+
+/* --------- unico media querie de 768px --------- */
+@media (max-width: 768px) {
+    header label {
+        display: block;
+    }
+    .menu {
+        position: absolute;
+        background: #0073d4;
+        width: 100%;
+        margin-left: -100%;
+        transition: all 0.5s;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+    #bt-menu:checked ~ .menu {
+        margin: 0;
+    }
+    main h1 {
+        font-size: 30px;
+        width: 100%;
+    }
+    main p {
+        padding: 0px;
+    }
+}
+/* --------- unico media querie de 768px --------- */
