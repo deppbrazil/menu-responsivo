@@ -1,8 +1,8 @@
-# Menu responsivo
+# HTML5 + CSS3
 
-## deixando o menu mais interativo apenas com CSS3
+## Nav-bar native with html5 and css3  ## 
 
-* unico @media de 768px
+* Single media querie `768px {...}`
 
 
 
