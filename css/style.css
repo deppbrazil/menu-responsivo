@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    font-family: calibri;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     background-color: #e6e6e6;
     width: 100vw;
@@ -76,11 +76,11 @@ main h1:hover {
 }
 
 main p {
-    padding: 0px 90px;
+    padding: 0 0 200px 0;
 }
 
 
-/* -----footer-------- */
+/* footer */
 footer {
     width: 100%;
     height: auto;
@@ -91,7 +91,7 @@ footer {
     list-style: none;
     padding: 0;
     display: flex;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
@@ -119,10 +119,10 @@ footer h2 a {
 footer h2:hover {
     background-color: rgba(0, 0, 0, 0.4);
 }
-/* -----footer-------- */
+/* footer */
 
 
-/* --------- unico media querie de 768px --------- */
+/*  media querie  */
 @media (max-width: 768px) {
     header label {
         display: block;
@@ -151,4 +151,4 @@ footer h2:hover {
         padding: 0px;
     }
 }
-/* --------- unico media querie de 768px --------- */
+/*  media querie  */
