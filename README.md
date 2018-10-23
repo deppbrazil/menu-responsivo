@@ -1,4 +1,10 @@
-# HTML5 + CSS3
-## Nav-bar native with html5 and css3  ## 
+# Basic Responsive NavBar # 
 
-* Single media querie `768px {...}`
+> Not framework, Not Javascript 😱
+
+## Stacks: ##
+* HTML5
+* CSS3
+
+### Infos: ###
+* Only media querie `768px {...}`
