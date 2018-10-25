@@ -1,8 +1,8 @@
 # Basic Responsive NavBar # 
 
-## [Demo](https://deppbrazil.github.io/responsive-nav-bar/) ##
-
 [![Banner](assets/banner.jpg)](https://github.com/deppbrazil/responsive-nav-bar)
+
+## [Demo](https://deppbrazil.github.io/responsive-nav-bar/) ##
 
 > Not framework, Not Javascript 😱
 
