@@ -8,5 +8,5 @@
 * HTML5
 * CSS3
 
-### Infos: ###
+## Infos: ##
 * Only media querie `768px {...}`
