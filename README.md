@@ -1,14 +1,14 @@
-# Basic Responsive NavBar # 
+# Basic responsive navbar native with HTML5 and CSS3# 
 
 [![Banner](assets/banner.jpg)](https://github.com/deppbrazil/responsive-nav-bar)
 
 ## [Demo](https://deppbrazil.github.io/responsive-nav-bar/) ##
 
-> Not framework, Not Javascript 😱
+> Without framework, Without Javascript 😱
 
-## Stacks: ##
+## Technologies: ##
 * HTML5
 * CSS3
 
 ## Infos: ##
-* Only media querie `768px {...}`
+* Only one media querie `768px {...}`
